@@ -1,0 +1,135 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image:url(back1.jpeg);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position:relative;
+    width:100%;
+    height:100vh;
+}
+.navbar .logo{
+    width:100px;
+    height: 100px;
+    margin-left:20px;
+    margin-top:10px;
+    margin-right:20px;
+    float:left;
+    margin-bottom:10px;
+    border-radius:50px;
+}
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    display:flex;
+    flex-direction: row;
+    overflow: hidden;
+    background-color: grey;
+}
+.navbar a{
+    text-decoration: none;
+    margin-right:20px;
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+    display: block;
+    align-items: center;
+}
+.container .form-box{
+    margin-top: 150px
+}
+.header h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+    color:grey;
+}
+.header p{
+    margin-left:20px;
+    margin-right:20px;
+    font-size: 20px;
+    color:white;
+    display:block;
+    text-align: center;
+}
+.form-box{
+    margin-top: 50px;
+    color:white;
+    width:90%;
+    max-width: 450px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    position:absolute;
+    font-size: 20px;
+    padding:20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.form-item{
+    margin-bottom:15px;
+    position:relative;
+    display:flex;
+    align-items: center;
+    background-color:#eaeaea;
+    border-radius: 5px;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow:hidden;
+}
+input{
+    width:100%;
+    background: transparent;
+    border:0;
+    outline:0;
+    padding: 15px;
+}
+.form-box h2{
+    font-size:30px;
+    margin-bottom:60px;
+    color:rgb(197, 168, 168);
+    font-weight: bold;
+    position:relative;
+    
+}
+.form-box button{
+    border-radius: 20px;
+    font-size: 20px;
+    margin-right:20px;
+    margin-top:30px;
+    margin-left: 20px;
+    height:40px;
+    border:0;
+    outline:0;
+    cursor: pointer;
+    background: #3c00a0;
+    color:#fff;
+}
+.form-box button.disable{
+    background: #eaeaea;
+    color:#555;
+}
+.form-box button:hover{
+    background-color:blue;
+    color: white;
+}
+.form-item i{
+    color:black;
+}
+.form-box a{
+    text-decoration:none;
+    color:sandybrown;
+}
+.form-box a:hover{
+    background-color: blue;
+    color:white;
+}
+.form-item input::placeholder{
+    color:blue;
+}
