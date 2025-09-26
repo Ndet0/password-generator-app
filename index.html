@@ -8,6 +8,7 @@
     <script src="https://kit.fontawesome.com/a17f4f6670.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- Navigation bar with logo and menu links -->
     <div class="navbar">
         <ul>
     <li><img src="logo.jpeg" alt="Logo" class="logo"></li>
@@ -16,6 +17,7 @@
     <li><a href="index.html">Contact</a></li>
     </ul>
     </div>
+    <!-- Main content container with header and form -->
     <div class="container">
         <div class="header">
         <h1>Password Generator: CYBERGUARD</h1>
@@ -23,6 +25,7 @@
         <p>Dont worry about it!!</p>
         <P>CyberGuard has got you covered.Generate a strong and secure password with just a click of a button.</P>
         </div>
+            <!-- Form container for sign-up/sign-in with input fields and buttons -->
             <div class="form-box">
                 <h2 id="title">Create an account</h2>
                 <form>
@@ -36,14 +39,15 @@
                      </div>
                      <div class="form-item">
                         <i class="fa-solid fa-lock"></i>
-                        <input type="password" placeholder="Enter your password">
+                        <input type="password" id="pass" placeholder="Enter your password">
                      </div>
-                     <p> Forgot password? <a href="#">Click here</a></p>
+                     <p> Forgot password? <a href="#" id="forgotLink">Click here</a></p>
                      <button type="button" id="buttonUp">Sign up</button>
                      <button type="button" class="disable" id="buttonIn">Sign in</button>
                 </form>
             </div>
         </div>
 </body>
+<!-- Link to external JavaScript file for form functionality -->
 <script type="text/javascript" src="index.js"></script>
 </html>
