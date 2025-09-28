@@ -1,15 +1,65 @@
 {
   "folder": "password-generator-app",
   "files": [
-    "back.jpeg",
-    "back1.jpeg",
-    "index.html",
-    "index.js",
-    "LICENSE",
-    "logo.jpeg",
-    "README.md",
-    "ruff.html",
-    "style.css",
-    "user-details.html"
+    {
+      "name": "back.jpeg",
+      "size": 110702,
+      "type": "image/jpeg",
+      "lastModified": "Sep 24 11:02"
+    },
+    {
+      "name": "back1.jpeg",
+      "size": 48695,
+      "type": "image/jpeg",
+      "lastModified": "Sep 24 13:58"
+    },
+    {
+      "name": "index.html",
+      "size": 2411,
+      "type": "text/html",
+      "lastModified": "Sep 25 17:24"
+    },
+    {
+      "name": "index.js",
+      "size": 8054,
+      "type": "application/javascript",
+      "lastModified": "Sep 28 22:35"
+    },
+    {
+      "name": "LICENSE",
+      "size": 1062,
+      "type": "text/plain",
+      "lastModified": "Sep 24 10:26"
+    },
+    {
+      "name": "logo.jpeg",
+      "size": 60098,
+      "type": "image/jpeg",
+      "lastModified": "Sep 24 11:04"
+    },
+    {
+      "name": "README.md",
+      "size": 2732,
+      "type": "text/markdown",
+      "lastModified": "Sep 28 23:24"
+    },
+    {
+      "name": "ruff.html",
+      "size": 1230,
+      "type": "text/html",
+      "lastModified": "Sep 28 22:11"
+    },
+    {
+      "name": "style.css",
+      "size": 2921,
+      "type": "text/css",
+      "lastModified": "Sep 25 17:13"
+    },
+    {
+      "name": "user-details.html",
+      "size": 2239,
+      "type": "text/html",
+      "lastModified": "Sep 25 17:14"
+    }
   ]
 }

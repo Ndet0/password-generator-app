@@ -1,0 +1,15 @@
+{
+  "name": "password-generator-app",
+  "version": "1.0.0",
+  "description": "A password generator app with JSON hosting",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
